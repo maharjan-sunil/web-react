@@ -1,0 +1,755 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should render and match the snapshot 1`] = `
+<StyledNavbar
+  role="navigation"
+  tag="nav"
+  theme={
+    Object {
+      "$body-bg": "#fff",
+      "$border-radius": ".25rem",
+      "$border-width": "1px",
+      "$component-active-bg": "#0275d8",
+      "$component-active-color": "#fff",
+      "$cursor-disabled": "not-allowed",
+      "$enable-hover-media-query": false,
+      "$enable-rounded": true,
+      "$font-size-lg": "1.25rem",
+      "$grid-breakpoints": Object {
+        "lg": "992px",
+        "md": "768px",
+        "sm": "576px",
+        "xl": "1200px",
+        "xs": "0",
+      },
+      "$nav-disabled-link-color": "#636c72",
+      "$nav-link-padding": ".5em 1em",
+      "$nav-pills-active-link-bg": "#0275d8",
+      "$nav-pills-active-link-color": "#fff",
+      "$nav-pills-border-radius": ".25rem",
+      "$nav-tabs-active-link-hover-bg": "#fff",
+      "$nav-tabs-active-link-hover-border-color": "#ddd",
+      "$nav-tabs-active-link-hover-color": "#464a4c",
+      "$nav-tabs-border-color": "#ddd",
+      "$nav-tabs-border-radius": ".5em 1em",
+      "$nav-tabs-border-width": "1px",
+      "$nav-tabs-link-hover-border-color": "#eceeef",
+      "$navbar-brand-padding-y": ".25rem",
+      "$navbar-divider-padding-y": ".425rem",
+      "$navbar-inverse-active-color": "rgba(255,255,255,1)",
+      "$navbar-inverse-color": "rgba(255,255,255,.5)",
+      "$navbar-inverse-disabled-color": "rgba(255, 255, 255, 0.25)",
+      "$navbar-inverse-hover-color": "rgba(255,255,255,.75)",
+      "$navbar-inverse-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(255,255,255,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+      "$navbar-inverse-toggler-border": "rgba(255,255,255,.1)",
+      "$navbar-light-active-color": "rgba(0,0,0,.9)",
+      "$navbar-light-color": "rgba(0,0,0,.5)",
+      "$navbar-light-disabled-color": "rgba(0, 0, 0, 0.3)",
+      "$navbar-light-hover-color": "rgba(0,0,0,.7)",
+      "$navbar-light-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(0,0,0,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+      "$navbar-light-toggler-border": "rgba(0,0,0,.1)",
+      "$navbar-padding-x": "1rem",
+      "$navbar-padding-y": "0.5rem",
+      "$navbar-toggler-border-radius": ".25rem",
+      "$navbar-toggler-font-size": "1.25rem",
+      "$navbar-toggler-padding-x": ".75rem",
+      "$navbar-toggler-padding-y": ".5rem",
+      "$zindex-navbar": "1000",
+      "$zindex-navbar-fixed": "1030",
+      "$zindex-navbar-sticky": "1030",
+    }
+  }
+  toggleable="lg"
+>
+  <StyledNavbar__StyleNavbarBrand>
+    <Img
+      alt="Wallbee Logo"
+      src="IMAGE_MOCK"
+      tag="img"
+      theme={
+        Object {
+          "$border-radius": ".25rem",
+          "$border-width": "1px",
+          "$enable-rounded": true,
+          "$enable-shadows": false,
+          "$enable-transitions": true,
+          "$figure-caption-color": "#636c72",
+          "$figure-caption-font-size": "90%",
+          "$spacer-halved": "0.5rem",
+          "$thumbnail-bg": "#fff",
+          "$thumbnail-border-color": "#ddd",
+          "$thumbnail-border-radius": ".25rem",
+          "$thumbnail-border-width": "1px",
+          "$thumbnail-box-shadow": "0 1px 2px rgba(0, 0, 0, 0.75)",
+          "$thumbnail-padding": ".25rem",
+          "$thumbnail-transition": "all .2s ease-in-out",
+        }
+      }
+    />
+  </StyledNavbar__StyleNavbarBrand>
+  <NavbarToggler
+    aria-controls="navbarSupportedContent"
+    tag="button"
+    type="button"
+  />
+  <Collapse
+    id="navbarSupportedContent"
+    navbar={true}
+  >
+    <StyledNavbar__MainNav
+      className="mr-auto"
+      navbar={true}
+      tag={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Ul-sctud2-0",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+            ],
+          },
+          "defaultProps": Object {
+            "role": "navigation",
+            "tag": "nav",
+            "theme": Object {
+              "$body-bg": "#fff",
+              "$border-radius": ".25rem",
+              "$border-width": "1px",
+              "$component-active-bg": "#0275d8",
+              "$component-active-color": "#fff",
+              "$cursor-disabled": "not-allowed",
+              "$enable-hover-media-query": false,
+              "$enable-rounded": true,
+              "$font-size-lg": "1.25rem",
+              "$grid-breakpoints": Object {
+                "lg": "992px",
+                "md": "768px",
+                "sm": "576px",
+                "xl": "1200px",
+                "xs": "0",
+              },
+              "$nav-disabled-link-color": "#636c72",
+              "$nav-link-padding": ".5em 1em",
+              "$nav-pills-active-link-bg": "#0275d8",
+              "$nav-pills-active-link-color": "#fff",
+              "$nav-pills-border-radius": ".25rem",
+              "$nav-tabs-active-link-hover-bg": "#fff",
+              "$nav-tabs-active-link-hover-border-color": "#ddd",
+              "$nav-tabs-active-link-hover-color": "#464a4c",
+              "$nav-tabs-border-color": "#ddd",
+              "$nav-tabs-border-radius": ".5em 1em",
+              "$nav-tabs-border-width": "1px",
+              "$nav-tabs-link-hover-border-color": "#eceeef",
+              "$navbar-brand-padding-y": ".25rem",
+              "$navbar-divider-padding-y": ".425rem",
+              "$navbar-inverse-active-color": "rgba(255,255,255,1)",
+              "$navbar-inverse-color": "rgba(255,255,255,.5)",
+              "$navbar-inverse-disabled-color": "rgba(255, 255, 255, 0.25)",
+              "$navbar-inverse-hover-color": "rgba(255,255,255,.75)",
+              "$navbar-inverse-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(255,255,255,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+              "$navbar-inverse-toggler-border": "rgba(255,255,255,.1)",
+              "$navbar-light-active-color": "rgba(0,0,0,.9)",
+              "$navbar-light-color": "rgba(0,0,0,.5)",
+              "$navbar-light-disabled-color": "rgba(0, 0, 0, 0.3)",
+              "$navbar-light-hover-color": "rgba(0,0,0,.7)",
+              "$navbar-light-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(0,0,0,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+              "$navbar-light-toggler-border": "rgba(0,0,0,.1)",
+              "$navbar-padding-x": "1rem",
+              "$navbar-padding-y": "0.5rem",
+              "$navbar-toggler-border-radius": ".25rem",
+              "$navbar-toggler-font-size": "1.25rem",
+              "$navbar-toggler-padding-x": ".75rem",
+              "$navbar-toggler-padding-y": ".5rem",
+              "$zindex-navbar": "1000",
+              "$zindex-navbar-fixed": "1030",
+              "$zindex-navbar-sticky": "1030",
+            },
+            "toggleable": "false",
+          },
+          "displayName": "Ul",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "className": [Function],
+            "inline": [Function],
+            "role": [Function],
+            "tag": [Function],
+            "theme": [Function],
+            "toggleable": [Function],
+            "unstyled": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "Ul-sctud2-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      theme={
+        Object {
+          "$body-bg": "#fff",
+          "$border-radius": ".25rem",
+          "$border-width": "1px",
+          "$component-active-bg": "#0275d8",
+          "$component-active-color": "#fff",
+          "$cursor-disabled": "not-allowed",
+          "$enable-hover-media-query": false,
+          "$enable-rounded": true,
+          "$font-size-lg": "1.25rem",
+          "$nav-disabled-link-color": "#636c72",
+          "$nav-link-padding": ".5em 1em",
+          "$nav-pills-active-link-bg": "#0275d8",
+          "$nav-pills-active-link-color": "#fff",
+          "$nav-pills-border-radius": ".25rem",
+          "$nav-tabs-active-link-hover-bg": "#fff",
+          "$nav-tabs-active-link-hover-border-color": "#ddd",
+          "$nav-tabs-active-link-hover-color": "#464a4c",
+          "$nav-tabs-border-color": "#ddd",
+          "$nav-tabs-border-radius": ".5em 1em",
+          "$nav-tabs-border-width": "1px",
+          "$nav-tabs-link-hover-border-color": "#eceeef",
+          "$navbar-brand-padding-y": ".25rem",
+          "$navbar-divider-padding-y": ".425rem",
+          "$navbar-inverse-active-color": "rgba(255,255,255,1)",
+          "$navbar-inverse-color": "rgba(255,255,255,.5)",
+          "$navbar-inverse-disabled-color": "rgba(255, 255, 255, 0.25)",
+          "$navbar-inverse-hover-color": "rgba(255,255,255,.75)",
+          "$navbar-inverse-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(255,255,255,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+          "$navbar-inverse-toggler-border": "rgba(255,255,255,.1)",
+          "$navbar-light-active-color": "rgba(0,0,0,.9)",
+          "$navbar-light-color": "rgba(0,0,0,.5)",
+          "$navbar-light-disabled-color": "rgba(0, 0, 0, 0.3)",
+          "$navbar-light-hover-color": "rgba(0,0,0,.7)",
+          "$navbar-light-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(0,0,0,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+          "$navbar-light-toggler-border": "rgba(0,0,0,.1)",
+          "$navbar-padding-x": "1rem",
+          "$navbar-padding-y": "0.5rem",
+          "$navbar-toggler-border-radius": ".25rem",
+          "$navbar-toggler-font-size": "1.25rem",
+          "$navbar-toggler-padding-x": ".75rem",
+          "$navbar-toggler-padding-y": ".5rem",
+          "$zindex-navbar": "1000",
+          "$zindex-navbar-fixed": "1030",
+          "$zindex-navbar-sticky": "1030",
+        }
+      }
+      toggleable="false"
+    >
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/"
+        >
+          <FormattedMessage
+            defaultMessage="Home"
+            id="wallbee.home"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/logs"
+        >
+          <FormattedMessage
+            defaultMessage="Log"
+            id="wallbee.log"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/sites"
+        >
+          <FormattedMessage
+            defaultMessage="Site"
+            id="wallbee.site"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/site-accounts"
+        >
+          <FormattedMessage
+            defaultMessage="Site Account"
+            id="wallbee.siteaccount"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/scans"
+        >
+          <FormattedMessage
+            defaultMessage="Scan"
+            id="wallbee.scan"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/data-connections"
+        >
+          <FormattedMessage
+            defaultMessage="Data Connection"
+            id="wallbee.dataconnection"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+      <StyledNavbar__StyledNavItem>
+        <NavLink
+          as={[Function]}
+          tag={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "A-sc-70cat-0",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "defaultProps": Object {
+                "tag": "a",
+                "theme": Object {
+                  "$enable-hover-media-query": false,
+                  "$link-color": "#0275d8",
+                  "$link-decoration": "none",
+                  "$link-hover-color": "#014C8D",
+                  "$link-hover-decoration": "underline",
+                },
+              },
+              "displayName": "A",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "className": [Function],
+                "color": [Function],
+                "cssModule": [Function],
+                "tag": [Function],
+                "theme": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "A-sc-70cat-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          to="/carriers"
+        >
+          <FormattedMessage
+            defaultMessage="Carrier"
+            id="wallbee.carrier"
+            values={Object {}}
+          />
+        </NavLink>
+      </StyledNavbar__StyledNavItem>
+    </StyledNavbar__MainNav>
+  </Collapse>
+  <StyledNavbar__MainNavIcon
+    tag={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Ul-sctud2-0",
+          "isStatic": false,
+          "rules": Array [
+            [Function],
+          ],
+        },
+        "defaultProps": Object {
+          "role": "navigation",
+          "tag": "nav",
+          "theme": Object {
+            "$body-bg": "#fff",
+            "$border-radius": ".25rem",
+            "$border-width": "1px",
+            "$component-active-bg": "#0275d8",
+            "$component-active-color": "#fff",
+            "$cursor-disabled": "not-allowed",
+            "$enable-hover-media-query": false,
+            "$enable-rounded": true,
+            "$font-size-lg": "1.25rem",
+            "$grid-breakpoints": Object {
+              "lg": "992px",
+              "md": "768px",
+              "sm": "576px",
+              "xl": "1200px",
+              "xs": "0",
+            },
+            "$nav-disabled-link-color": "#636c72",
+            "$nav-link-padding": ".5em 1em",
+            "$nav-pills-active-link-bg": "#0275d8",
+            "$nav-pills-active-link-color": "#fff",
+            "$nav-pills-border-radius": ".25rem",
+            "$nav-tabs-active-link-hover-bg": "#fff",
+            "$nav-tabs-active-link-hover-border-color": "#ddd",
+            "$nav-tabs-active-link-hover-color": "#464a4c",
+            "$nav-tabs-border-color": "#ddd",
+            "$nav-tabs-border-radius": ".5em 1em",
+            "$nav-tabs-border-width": "1px",
+            "$nav-tabs-link-hover-border-color": "#eceeef",
+            "$navbar-brand-padding-y": ".25rem",
+            "$navbar-divider-padding-y": ".425rem",
+            "$navbar-inverse-active-color": "rgba(255,255,255,1)",
+            "$navbar-inverse-color": "rgba(255,255,255,.5)",
+            "$navbar-inverse-disabled-color": "rgba(255, 255, 255, 0.25)",
+            "$navbar-inverse-hover-color": "rgba(255,255,255,.75)",
+            "$navbar-inverse-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(255,255,255,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+            "$navbar-inverse-toggler-border": "rgba(255,255,255,.1)",
+            "$navbar-light-active-color": "rgba(0,0,0,.9)",
+            "$navbar-light-color": "rgba(0,0,0,.5)",
+            "$navbar-light-disabled-color": "rgba(0, 0, 0, 0.3)",
+            "$navbar-light-hover-color": "rgba(0,0,0,.7)",
+            "$navbar-light-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(0,0,0,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+            "$navbar-light-toggler-border": "rgba(0,0,0,.1)",
+            "$navbar-padding-x": "1rem",
+            "$navbar-padding-y": "0.5rem",
+            "$navbar-toggler-border-radius": ".25rem",
+            "$navbar-toggler-font-size": "1.25rem",
+            "$navbar-toggler-padding-x": ".75rem",
+            "$navbar-toggler-padding-y": ".5rem",
+            "$zindex-navbar": "1000",
+            "$zindex-navbar-fixed": "1030",
+            "$zindex-navbar-sticky": "1030",
+          },
+          "toggleable": "false",
+        },
+        "displayName": "Ul",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "children": [Function],
+          "className": [Function],
+          "inline": [Function],
+          "role": [Function],
+          "tag": [Function],
+          "theme": [Function],
+          "toggleable": [Function],
+          "unstyled": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "Ul-sctud2-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    theme={
+      Object {
+        "$body-bg": "#fff",
+        "$border-radius": ".25rem",
+        "$border-width": "1px",
+        "$component-active-bg": "#0275d8",
+        "$component-active-color": "#fff",
+        "$cursor-disabled": "not-allowed",
+        "$enable-hover-media-query": false,
+        "$enable-rounded": true,
+        "$font-size-lg": "1.25rem",
+        "$nav-disabled-link-color": "#636c72",
+        "$nav-link-padding": ".5em 1em",
+        "$nav-pills-active-link-bg": "#0275d8",
+        "$nav-pills-active-link-color": "#fff",
+        "$nav-pills-border-radius": ".25rem",
+        "$nav-tabs-active-link-hover-bg": "#fff",
+        "$nav-tabs-active-link-hover-border-color": "#ddd",
+        "$nav-tabs-active-link-hover-color": "#464a4c",
+        "$nav-tabs-border-color": "#ddd",
+        "$nav-tabs-border-radius": ".5em 1em",
+        "$nav-tabs-border-width": "1px",
+        "$nav-tabs-link-hover-border-color": "#eceeef",
+        "$navbar-brand-padding-y": ".25rem",
+        "$navbar-divider-padding-y": ".425rem",
+        "$navbar-inverse-active-color": "rgba(255,255,255,1)",
+        "$navbar-inverse-color": "rgba(255,255,255,.5)",
+        "$navbar-inverse-disabled-color": "rgba(255, 255, 255, 0.25)",
+        "$navbar-inverse-hover-color": "rgba(255,255,255,.75)",
+        "$navbar-inverse-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(255,255,255,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+        "$navbar-inverse-toggler-border": "rgba(255,255,255,.1)",
+        "$navbar-light-active-color": "rgba(0,0,0,.9)",
+        "$navbar-light-color": "rgba(0,0,0,.5)",
+        "$navbar-light-disabled-color": "rgba(0, 0, 0, 0.3)",
+        "$navbar-light-hover-color": "rgba(0,0,0,.7)",
+        "$navbar-light-toggler-bg": "url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\\"0 0 30 30\\" xmlns=\\"http://www.w3.org/2000/svg\\"%3E%3Cpath stroke=\\"rgba(0,0,0,.5)\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-miterlimit=\\"10\\" d=\\"M4 7h22M4 15h22M4 23h22\\"/%3E%3C/svg%3E')",
+        "$navbar-light-toggler-border": "rgba(0,0,0,.1)",
+        "$navbar-padding-x": "1rem",
+        "$navbar-padding-y": "0.5rem",
+        "$navbar-toggler-border-radius": ".25rem",
+        "$navbar-toggler-font-size": "1.25rem",
+        "$navbar-toggler-padding-x": ".75rem",
+        "$navbar-toggler-padding-y": ".5rem",
+        "$zindex-navbar": "1000",
+        "$zindex-navbar-fixed": "1030",
+        "$zindex-navbar-sticky": "1030",
+      }
+    }
+    toggleable="false"
+  >
+    <StyledNavbar__StyledNavItemIcon>
+      <Question
+        size="12"
+      />
+    </StyledNavbar__StyledNavItemIcon>
+    <StyledNavbar__StyledNavItemIcon>
+      <Bell
+        size="12"
+      />
+    </StyledNavbar__StyledNavItemIcon>
+    <StyledNavbar__StyledNavItemIcon>
+      <Cog
+        size="12"
+      />
+    </StyledNavbar__StyledNavItemIcon>
+    <StyledNavbar__StyledNavItemIcon>
+      <User
+        size="12"
+      />
+    </StyledNavbar__StyledNavItemIcon>
+  </StyledNavbar__MainNavIcon>
+</StyledNavbar>
+`;

@@ -1,0 +1,29 @@
+const DEFAULT_ACTION = 'SiteDefault';
+const FILTER_ACTION = 'SiteFilter';
+const DETAIL_ACTION = 'SiteDetail';
+const INSERT_ACTION = 'SiteInsert';
+const UPDATE_ACTION = 'SiteUpdate';
+const DELETE_ACTION = 'SiteDelete';
+const RESPONSE_ACTION = 'SiteResponse';
+const SITES_RESPONSE_ACTION = 'Sites';
+const SITE_RESPONSE_ACTION = 'Site';
+const RESPONSE_DELETE_ACTION = 'SiteResponseDelete';
+const RESET_RESULT_ACTION = 'SiteReset';
+const RESET_STATUSCODE_ACTION = 'SiteStatusCodeReset';
+const PAGE_ACTION = 'SitePage';
+
+export {
+  DEFAULT_ACTION,
+  FILTER_ACTION,
+  DETAIL_ACTION,
+  INSERT_ACTION,
+  UPDATE_ACTION,
+  DELETE_ACTION,
+  RESPONSE_ACTION,
+  SITES_RESPONSE_ACTION,
+  SITE_RESPONSE_ACTION,
+  RESPONSE_DELETE_ACTION,
+  RESET_RESULT_ACTION,
+  RESET_STATUSCODE_ACTION,
+  PAGE_ACTION,
+};

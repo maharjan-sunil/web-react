@@ -1,0 +1,37 @@
+$base-color: #1b5192;
+$height: 30px;
+$border-color: #ddd;
+
+ul.pagination {
+    margin: 0 0 10px;
+    padding: 0;
+    li {
+        list-style: none;
+        display: inline-block;
+        height: $height;
+        line-height: $height - 2px;
+        margin-right: 10px;
+        text-transform: uppercase;
+        a {
+            display: block;
+            background: #ffffff;
+            border: 1px solid $border-color;
+            padding: 0 10px;
+            border-radius: 2px;
+            &:not([aria-disabled="true"]) {
+                cursor: pointer;
+            }
+            &:hover {
+                background: #ddd;
+                border-color: #bbb;
+            }
+        }
+        &.active {
+            a {
+                background: $base-color;
+                border-color: $base-color;
+                color: #ffffff;
+            }
+        }
+    }
+}

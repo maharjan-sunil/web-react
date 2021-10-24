@@ -1,0 +1,4 @@
+const FILTER_ACTION = 'NotMappedFilter';
+const PAGE_ACTION = 'NotMappedPage';
+const NOTMAPPED_RESPONSE_ACTION = 'NotMapped';
+export { FILTER_ACTION, PAGE_ACTION, NOTMAPPED_RESPONSE_ACTION };

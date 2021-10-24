@@ -1,0 +1,18 @@
+export const wallbeeThemeB4 = {
+  $red: '#a30000',
+  $orange: '#f0ad4e',
+  $yellow: '#ffd500',
+  $green: '#6f8c29',
+  $blue: '#007bff',
+  $teal: '#20c997',
+  $pink: '#ff5b77',
+  $purple: '#6f42c1',
+  $white: '#f0f2f5',
+  '$gray-dark': '#212529',
+  $gray: '#464a4c',
+  '$gray-light': '#636c72',
+  '$gray-lighter': '#dee2e6',
+  '$gray-lightest': '#f8f9fa',
+  '$brand-primary': '#1B5192',
+  '$badge-font-size': '1rem',
+};

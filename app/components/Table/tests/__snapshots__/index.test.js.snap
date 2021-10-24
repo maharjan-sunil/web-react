@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should match snapshot  1`] = `
+<table
+  class="Table-oyilxr-0 Table__StyledTable-sc-242oap-0 lldlQi table"
+/>
+`;

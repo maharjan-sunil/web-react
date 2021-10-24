@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should match snapshot  1`] = `
+<nav
+  class="Navbar-sc-1o0l5dr-0 StyledNavbar-sc-13g77u5-0 eoxpNL navbar"
+  role="navigation"
+/>
+`;

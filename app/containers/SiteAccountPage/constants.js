@@ -1,0 +1,42 @@
+const DEFAULT_ACTION = 'SiteAccountDefault';
+const FILTER_ACTION = 'SiteAccountFilter';
+const DETAIL_ACTION = 'SiteAccountDetail';
+const INSERT_ACTION = 'SiteAccountInsert';
+const UPDATE_ACTION = 'SiteAccountUpdate';
+const DELETE_ACTION = 'SiteAccountDelete';
+const RESTORE_ACTION = 'SiteAccountRestore';
+const PERMANENT_DELETE_ACTION = 'SiteAccountPermanentDelete';
+const CREATE_SELECT_LIST_ACTION = 'SiteAccountCreateSelectList';
+const RESPONSE_ACTION = 'SiteAccountResponse';
+const SITEACCOUNTS_RESPONSE_ACTION = 'SiteAccounts';
+const SITEACCOUNT_RESPONSE_ACTION = 'SiteAccount';
+const RESPONSE_DELETE_ACTION = 'SiteAccountResponseDelete';
+const RESPONSE_RESTORE_ACTION = 'SiteAccountResponseRestore';
+const RESPONSE_PERMANENT_DELETE_ACTION = 'SiteAccountResponsePermanentDelete';
+const RESPONSE_CREATE_SELECT_LIST_ACTION =
+  'SiteAccountResponseCreateSelectList';
+const RESET_RESULT_ACTION = 'SiteAccountReset';
+const RESET_STATUSCODE_ACTION = 'SiteAccountStatusCodeReset';
+const PAGE_ACTION = 'SiteAccountPage';
+
+export {
+  DEFAULT_ACTION,
+  FILTER_ACTION,
+  DETAIL_ACTION,
+  INSERT_ACTION,
+  UPDATE_ACTION,
+  DELETE_ACTION,
+  RESTORE_ACTION,
+  PERMANENT_DELETE_ACTION,
+  CREATE_SELECT_LIST_ACTION,
+  RESPONSE_ACTION,
+  SITEACCOUNTS_RESPONSE_ACTION,
+  SITEACCOUNT_RESPONSE_ACTION,
+  RESPONSE_DELETE_ACTION,
+  RESPONSE_RESTORE_ACTION,
+  RESPONSE_PERMANENT_DELETE_ACTION,
+  RESPONSE_CREATE_SELECT_LIST_ACTION,
+  RESET_RESULT_ACTION,
+  RESET_STATUSCODE_ACTION,
+  PAGE_ACTION,
+};

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a div 1`] = `
+<div>
+  <a
+    class="A-br8h0y-0 A-p44m4v-0 cYguYL"
+    href="https://www.reactboilerplate.com/"
+  >
+    <img
+      alt="react-boilerplate - Logo"
+      class="Img-sc-9pa8on-0 eepIiv"
+      src="IMAGE_MOCK"
+    />
+  </a>
+  <div
+    class="NavBar-sc-3b48xb-0 ioQxlc"
+  >
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/"
+    >
+      <span>
+        HOME
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/logs"
+    >
+      <span>
+        LOG
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/sites"
+    >
+      <span>
+        SITE
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/site-accounts"
+    >
+      <span>
+        SITE ACCOUNT
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/scans"
+    >
+      <span>
+        SCAN
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/data-connections"
+    >
+      <span>
+        DATA CONNECTION
+      </span>
+    </a>
+    <a
+      class="HeaderLink-sc-1mtyaiv-0 hMiTYG"
+      href="/carriers"
+    >
+      <span>
+        CARRIER
+      </span>
+    </a>
+  </div>
+</div>
+`;

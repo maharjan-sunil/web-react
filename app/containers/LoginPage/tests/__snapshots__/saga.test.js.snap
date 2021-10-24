@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loginPageSaga Saga should call the loginUserError action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "/login",
+      Object {
+        "dateTimeOffSet": "",
+        "email": "",
+        "password": "",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`loginPageSaga Saga should call the loginUserSuccess action if the response success 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "/login",
+      Object {
+        "dateTimeOffSet": "",
+        "email": "",
+        "password": "",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
